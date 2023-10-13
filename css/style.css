@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+    font-family: "PilatExtended";
+    src: url(../fonts/font/PilatExtended-Thin.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body {
+    background-image: url(../img/Untitled\ Project.jpg);  
+}
+
+
+
+/* HEADER */ 
+
+header {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+/* FOOTER */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;  
+    color: black;  
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+/* INDEX */
+
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.RosaliaLogo{
+    width: 400px;    
+}
+
+.InstagramLogo{
+    width: 70px;
+
+}
+
+.FacebookLogo{
+    width: 70px;    
+}
+
+.TwitterLogo{
+    width: 70px;
+}
+
+.YoutubeLogo{
+    width: 70px;
+}
+
+.SpotifyLogo{
+    width: 70px;
+}
+
+.Banner{
+    text-align: center;
+}
+
+.BannerSaoko{
+    width: 400px;
+    text-align: center;
+
+}
+
+.RedesSociales{
+    text-align: center;
+
+}
+
+.newsletter{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(137, 43, 43);
+    font-weight: 700;
+    display: flex;
+    padding: 50px;
+    gap: 1rem;
+   text-align: center;
+}
+
+.input{
+    border: 0;
+    background-color: beige;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5rem;
+}
+
+.form{
+    color:  rgb(137, 43, 43);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.submit{
+    padding: 0.5rem;
+    background-color: rgb(137, 43, 43);
+    color: beige; 
+    transition: 0.3s;
+    border: 0;
+    padding-inline: 1rem;
+    border-radius: 0.3rem;
+}
+
+.submit:hover{
+    background-color: beige;
+    color:  rgb(137, 43, 43);
+    font-family: 'Roboto', sans-serif;
+}
+
+.RedesSociales{    
+    display: flex;
+    text-align: center;
+}
+
+.LogoInstagram{
+    width: 100px;
+}
+
+.BannerSaoko{
+    text-align: center;
+}
+
+
+/* BIO */
+
+.biografia{
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 30px;
+  
+}
+
+
+/* GALERIA */
+
+.Galeria{
+    display: flex;
+}
+
+.PeloRojo{
+    width: 400px;
+    margin: 30px;
+    padding: 30px;      
+}
+
+.LentesNegros{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.CascoNegro{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.PortadaMotomami{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;    
+}
+
+.DosTrenzas{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.BotasRojas{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.DientesStrass{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+.CascoNegro2{
+    width: 400px;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+/* MERCH */
+
+section h2{
+    font-family: "PilatExtended", sans-serif;
+    text-align: center;
+    color: rgb(137, 43, 43);
+}
+
+section p {
+    font-family: "PilatExtended", sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;   
+    margin-bottom: 30px; 
+}
+
+section select {
+    font-family: "PilatExtended", sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.MotomamiBlanket{
+    width: 400px;
+    margin: 30px;
+}
+
+.RRVinyl{
+    width: 400px;
+    margin: 30px;
+}
+
+.MotomamiCardigan{
+    width: 400px;
+    margin: 30px;
+}
+
+.Totebag{
+    width: 400px;
+    margin: 30px;
+}
+
+.ElMalQuerer{
+    width: 400px;
+    margin: 30px;
+}
+
+.MotomamiShirt{
+    width: 400px;
+    margin: 30px;
+}
+
+.MotomamiCd{
+    width: 400px;
+    margin: 30px; 
+}
+
+/* TOUR */
+
+.TourBody{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-style: normal;
+    margin: 150px;
+}
+
+.BotonFollow{
+    background-color: rgb(137, 43, 43);
+    color: beige;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    padding-inline: 1rem;
+    font-weight: 100;
+    font-family: 'roboto' , sans-serif;    
+}
