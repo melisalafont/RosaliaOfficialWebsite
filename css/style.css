@@ -49,6 +49,7 @@ footer {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+
 }
 
 .RosaliaLogo{
@@ -80,15 +81,8 @@ footer {
     text-align: center;
 }
 
-.BannerSaoko{
-    width: 400px;
-    text-align: center;
-
-}
-
 .RedesSociales{
-    text-align: center;
-
+justify-content: center;
 }
 
 .newsletter{
@@ -97,9 +91,9 @@ footer {
     color: rgb(137, 43, 43);
     font-weight: 700;
     display: flex;
-    padding: 50px;
+    padding: 15px;
     gap: 1rem;
-   text-align: center;
+   justify-content: center;
 }
 
 .input{
@@ -165,58 +159,66 @@ footer {
 
 .Galeria{
     display: flex;
+    flex-wrap: wrap;    
 }
 
 .PeloRojo{
-    width: 400px;
+    width: 300px;
     margin: 30px;
-    padding: 30px;      
+    padding: 30px;
+       
 }
 
 .LentesNegros{
-    width: 400px;
+    width: 300px;
     padding: 30px;
-    margin: 30px;
+    margin: 30px;    
 }
 
 .CascoNegro{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;
 }
 
 .PortadaMotomami{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;    
 }
 
 .DosTrenzas{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;
 }
 
 .BotasRojas{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;
 }
 
 .DientesStrass{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;
 }
 
 .CascoNegro2{
-    width: 400px;
+    width: 300px;
     padding: 30px;
     margin: 30px;
 }
 
 
 /* MERCH */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
 
 section h2{
     font-family: "PilatExtended", sans-serif;
@@ -229,7 +231,7 @@ section p {
     text-align: center;
     color: black;
     font-weight: bold;   
-    margin-bottom: 30px; 
+    margin-bottom: 10px; 
 }
 
 section select {
@@ -237,7 +239,14 @@ section select {
     text-align: center;
     color: black;
     font-weight: bold;
+    padding: 5px;
 }
+
+.icon-cart{
+    width: 23px;
+    color: rgb(137, 43, 43);
+}
+
 
 .MotomamiBlanket{
     width: 400px;
@@ -269,9 +278,14 @@ section select {
     margin: 30px;
 }
 
+
 .MotomamiCd{
     width: 400px;
-    margin: 30px; 
+    margin: 30px;     
+}
+
+.merch-items{
+    text-align: center;
 }
 
 /* TOUR */
@@ -292,5 +306,6 @@ section select {
     border-radius: 0.3rem;
     padding-inline: 1rem;
     font-weight: 100;
-    font-family: 'roboto' , sans-serif;    
+    font-family: 'roboto' , sans-serif;  
+    
 }
