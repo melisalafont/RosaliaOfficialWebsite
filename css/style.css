@@ -61,29 +61,12 @@ footer {
 }
 
 .RosaliaLogo{
-    width: 300px;
+    width: 500px;
     padding-top: 20px;  
 }
 
-.InstagramLogo{
-    width: 50px;
-
-}
-
-.FacebookLogo{
-    width: 50px;    
-}
-
-.TwitterLogo{
-    width: 50px;
-}
-
-.YoutubeLogo{
-    width: 50px;
-}
-
-.SpotifyLogo{
-    width: 50px;
+.Logo{
+    width: 70px;
 }
 
 .Banner{
@@ -94,17 +77,20 @@ footer {
 justify-content: center;
 
 }
-
-.newsletter{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(137, 43, 43);
-    font-weight: 700;
-    display: flex;
-    padding: 15px;
-    gap: 1rem;
-   justify-content: center;
+.spotifylinks{    
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr);
 }
+
+.cover{
+    width: 380px;
+    margin: 2rem;   
+}
+
+.spotifyplay{
+    margin: 2rem;
+}
+
 
 .input{
     border: 0;
@@ -144,10 +130,6 @@ justify-content: center;
     width: 100px;
 }
 
-.BannerSaoko{
-    text-align: center;
-}
-
 
 /* BIO */
 
@@ -167,68 +149,16 @@ justify-content: center;
 
 /* GALERIA */
 
-.Galeria{
-    display: flex;
-    flex-wrap: wrap;    
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
-
-.PeloRojo{
+.galeriafotos{
     width: 300px;
-    margin: 30px;
-    padding: 30px;
-       
+    margin: 1rem;         
 }
-
-.LentesNegros{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;    
-}
-
-.CascoNegro{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;
-}
-
-.PortadaMotomami{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;    
-}
-
-.DosTrenzas{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;
-}
-
-.BotasRojas{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;
-}
-
-.DientesStrass{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;
-}
-
-.CascoNegro2{
-    width: 300px;
-    padding: 30px;
-    margin: 30px;
-}
-
 
 /* MERCH */
-
-header{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-}
 
 section h2{
     font-family: "PilatExtended", sans-serif;
@@ -252,46 +182,10 @@ section select {
     padding: 5px;
 }
 
-.icon-cart{
-    width: 23px;
-    color: rgb(137, 43, 43);
-}
-
-
-.MotomamiBlanket{
+.merchitems{
     width: 400px;
     margin: 30px;
-}
-
-.RRVinyl{
-    width: 400px;
-    margin: 30px;
-}
-
-.MotomamiCardigan{
-    width: 400px;
-    margin: 30px;
-}
-
-.Totebag{
-    width: 400px;
-    margin: 30px;
-}
-
-.ElMalQuerer{
-    width: 400px;
-    margin: 30px;
-}
-
-.MotomamiShirt{
-    width: 400px;
-    margin: 30px;
-}
-
-
-.MotomamiCd{
-    width: 400px;
-    margin: 30px;     
+    display: grid;
 }
 
 .merch-items{
