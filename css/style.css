@@ -69,6 +69,7 @@ footer {
 
 .RedesSociales{
 justify-content: center;
+display: flex;
 
 }
 .spotifylinks{    
@@ -78,53 +79,12 @@ justify-content: center;
 
 .cover{
     width: 380px;
-    margin: 2rem; 
-     
+    margin: 2rem;      
 }
 
 .spotifyplay{
     margin: 2rem;
 }
-
-
-.input{
-    border: 0;
-    background-color: beige;
-    font-family: 'Roboto', sans-serif;
-    padding: 0.5rem;
-}
-
-.form{
-    color:  rgb(137, 43, 43);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
-.submit{
-    padding: 0.5rem;
-    background-color: rgb(137, 43, 43);
-    color: beige; 
-    transition: 0.3s;
-    border: 0;
-    padding-inline: 1rem;
-    border-radius: 0.3rem;
-}
-
-.submit:hover{
-    background-color: beige;
-    color:  rgb(137, 43, 43);
-    font-family: 'Roboto', sans-serif;
-}
-
-.RedesSociales{    
-    display: flex;
-    text-align: center;
-}
-
-.LogoInstagram{
-    width: 100px;
-}
-
 
 /* BIO */
 
@@ -141,7 +101,6 @@ justify-content: center;
   
 }
 
-
 /* GALERIA */
 
 .galeria{
@@ -156,7 +115,7 @@ justify-content: center;
     margin-top: 1rem;
 }
 
-/* MERCH */
+ /* MERCH */
 
 section h2{
     font-family: "PilatExtended", sans-serif;
@@ -180,14 +139,20 @@ section select {
     padding: 5px;
 }
 
-.merchitems{
-    width: 400px;
-    margin: 30px;
+.merchandising{
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.merchitems{
+    width: 350px;
+    margin: 30px;padding: 1rem;
 }
 
 .merch-items{
     text-align: center;
+   margin: 1rem;
 }
 
 /* TOUR */
@@ -206,12 +171,18 @@ section select {
     margin: 2rem;
 }
 
-.Boton{
-    background-color: rgb(137, 43, 43);
-    color: beige;
+.submit{
     padding: 0.5rem;
-    border-radius: 0.3rem;
+    background-color: rgb(137, 43, 43);
+    color: beige; 
+    transition: 0.3s;
+    border: 0;
     padding-inline: 1rem;
-    font-weight: 100;
-    font-family: 'roboto' , sans-serif;    
+    border-radius: 0.3rem;
+}
+
+.submit:hover{
+    background-color: beige;
+    color:  rgb(137, 43, 43);
+    font-family: 'Roboto', sans-serif;
 }
